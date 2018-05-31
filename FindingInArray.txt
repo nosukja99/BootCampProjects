@@ -1,0 +1,38 @@
+    ALGORITHM : compare each element of array and fine the largest element and smallest element
+	
+	===================================
+	INPUT : array with number elements
+
+	PROCESSING STEPS : suppose the first one as the largest and compare to each element of array
+	                   if other one is bigger than current largest value, the current largest value will be change
+					   suppose the first one as the smallest and compare to each element of array
+	                   if other one is samller than current smallest value, the current smallest value will be change
+
+	OUTPUTS : largest number and smallest number
+
+	=================================
+	PSEUDOCODE : Initialize int largestNum to zero
+				 Initialize int smallestNum to zero
+				 
+				 Find_largest_element
+				 Set largest_element to array(0)
+				 DO index = 1 to number_of_elements
+                 FOR loop-index = 0 and until loop-index is less than the length of array and loop-index increment by 1
+				 each time
+				   IF current largest value is less than loop-index 
+				      Change the largest value to the loop-index
+				 ENDDO
+				 Print largest_element
+				 END
+
+				 Find_smallest_element
+				 Set smallest_element to array(0)
+				 DO index = 1 to number_of_elements
+				 FOR loop-index = 0 and until loop-index is less than the length of array and loop-index increment by 1
+				 each time
+				   IF current smallest value is greater than loop-index 
+				      Change the smallest value to the loop-index
+				 ENDDO
+				 Print largest_element
+				 END
+	             

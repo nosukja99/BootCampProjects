@@ -1,0 +1,37 @@
+ 1.  
+   ALGORITHM :  add all elemets of an array 
+	===================================
+	INPUT : array with number elements
+	PROCESSING STEPS : from first elemet of the array to the last element add all number values
+	OUTPUTS : sum
+	=================================
+	PSEUDOCODE : Initialize sum to zero
+	             For loop-index = 0 and until loop-index is less than the length of array and loop-index increment by 1
+				 each time
+				 sum = sum + the value of loop-index
+				 Print sum 
+				 
+	Test data
+	 int[] A= {1,2,3,4}
+	 sum= 1+2+3+4=10
+	 
+ 2. 
+    ALGORITHM :  add all elemets of an array adn divide it by length of array to get eht average
+	===================================
+	INPUT : array with number elements
+	PROCESSING STEPS : from first elemet of the array to the last element add all number values
+	                   average= sum/ length of array
+	OUTPUTS : sum and average
+	=================================
+	PSEUDOCODE : Initialize sum to zero
+	             For loop-index = 0 and until loop-index is less than the length of array and loop-index increment by 1
+				 each time
+				 sum = sum + the value of loop-index
+				 Print sum 
+				 average = sum/length of array
+				 Print average
+				 
+	Test data
+	 int[] A= {1,2,3,4}
+	 sum= 1+2+3+4=10
+	 average = 10/4 =2.5

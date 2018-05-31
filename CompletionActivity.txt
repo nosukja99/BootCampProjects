@@ -1,0 +1,106 @@
+ALGORITHM : get two numerical value from user and get the sum of those two number
+            if thesum is 21, display an asterisk beside the sum 
+	
+	===================================
+	INPUT : number1, number2
+
+	PROCESSING STEPS : sum = add number1 and number2 
+	                   check the sum is 21 or not
+					   check the numbe1 and number2 is 0
+
+	OUTPUTS : sum 
+
+	=================================
+	PSEUDOCODE : Print "Welcome"
+	             DOWHILE  number1 is not equal to 0 or number2 is not equal to 0
+				     Prompt uset to input two numerical value number1 and number2
+				     Get number1, number2
+				     Calculate sum= number1+number2
+					 IF sum=21
+							Display sum + '*'
+					 ELSE
+							Display sum
+				 ENDDO
+					Print "Goody-bye"
+					Terminate
+					
+					
+Bonus
+    ALGORITHM : get two card value from user and convert it to numeric value 
+	            and get the sum of those two numeric value
+                if thesum is 21, display an asterisk beside the sum 
+	
+	===================================
+	INPUT : card1, card2
+
+	PROCESSING STEPS : if card value is equal to J, Q, K convert to 10
+	                   if card value is equal to A convert to 11
+	                   sum = add two numeric value
+	                   check the sum is 21 or not
+
+
+	OUTPUTS : sum 
+
+	=================================
+	PSEUDOCODE : Print "Welcome"
+				 Prompt uset to input two card value among J,Q,K,A
+				     Get card1, card2
+					 IF card1 is same to J,Q,K
+					    number1=card1 converted to number 10 
+					 ELSE card1 is same to A
+					    number1card1 converted to number 11
+					 ENDIF
+					 IF card2 is same to J,Q,K
+					    number2=card2 converted to number 10
+					 ELSE card2 is same to A
+					    number2=card2 converted to number 11
+					 ENDIF
+				     Calculate sum= number1+number2
+					 IF sum=21
+							Display sum + '*'
+					 ELSE
+							Display sum
+				 
+Bonus Bonus
+    ALGORITHM : get two card value from user and convert it to numeric value 
+	            and get the sum of those two numeric value
+				if the card value is A the user can decide to 1 or 11
+                if thesum is 21, display an asterisk beside the sum 
+	
+	===================================
+	INPUT : card1, card2
+
+	PROCESSING STEPS : if card value is equal to J, Q, K convert to 10
+	                   if card value is equal to A convert to 1 or 11
+	                   sum = add two numeric value
+	                   check the sum is 21 or not
+
+
+	OUTPUTS : sum 
+
+	=================================
+	PSEUDOCODE : Print "Welcome"
+				 Prompt uset to input two card value among J,Q,K,A
+				     Get card1, card2
+					 IF card1 is same to J,Q,K
+					    number1=card1 converted to number 10 
+					 ELSE card1 is same to A
+					    Prompt user to designate it either 1 or 11
+					    Get the vlaue and save it to number1
+					 ENDIF
+					 IF card2 is same to J,Q,K
+					    number2=card2 converted to number 10
+					 ELSE card2 is same to A
+					    Prompt user to designate it either 1 or 11
+					    Get the vlaue and save it to number2
+					 ENDIF
+				     Calculate sum= number1+number2
+					 IF sum=21
+							Display sum + '*'
+					 ELSE
+							Display sum
+
+
+
+
+

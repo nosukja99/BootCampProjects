@@ -1,0 +1,37 @@
+    ALGORITHM :  read the electricity usage file and produce an electricity usage report and calculate amount owing
+	             owingAmount is calculated at 11 cnets for each kilowatt hour up to 200 and 8 cnets for each over 200
+	===================================
+	INPUT : totalHours, cusNum, name, electUsage
+	PROCESSING STEPS : calculate owingAmount 
+	                   if electUsage > 200
+					   owingAmount = 200*11+(electUsage-200)*8
+					   else
+					   owingAmount = electUsage*11
+	OUTPUTS : totalHours, cusNum, name, electUsage and owingAmount
+	=================================
+	PSEUDOCODE : Initialize String name to null
+	             Initialize String cusNum to null
+				 Initialize double totalHours to zero
+				 Initialize double electUsage to zero
+				 Initialize double owingAmount to zero
+				 
+				 Read header record
+				 Print totalHours
+				 
+				 DOWHILE morerecords exist
+                 Read number of detail records
+				 IF electUsage is geater than 200
+					 owingAmount = 200*11+(electUsage-200)*8
+				 ELSE
+					owingAmount = electUsage*11
+				 Diaplay cusNum, name, electUsage, and owingAmount
+				ENDDO
+				 
+				 
+				 
+	Test Data
+	  electUsage: 250
+	  owingAmount: 200*11+(250-200)*8 = 2600 cents
+	  
+	  electUsage: 180
+	  owingAmount: 180*11 = 1980 cents

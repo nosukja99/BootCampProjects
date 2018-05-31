@@ -1,0 +1,43 @@
+ ALGORITHM :  calculate percentage scores from test scores and give the letter grade accordign to 
+              the percentage scores
+	
+	===================================
+	INPUT : studentNum, name, testScore
+
+	PROCESSING STEPS : convert test scores to percentage scores and give letter grade 
+	                    A = 90–100%
+						B = 80–89%
+						C = 70–79%
+						D = 60–69%
+						F = 0–59%
+
+	OUTPUTS : studentNum, name, testScore, letter grade
+	=================================
+	PSEUDOCODE : Initialize String name to null
+	             Initialize String studentNum to null
+				 Initialize double testScore to zero
+				 Initialize double percentageScore to zero
+				 Initialize String letterScore to null
+				 
+				 DOWHILE morerecords exist
+                 Read student test results record
+				 IF testScore is geater than 50 or equal to 50
+					 Calculate the percentageScore = testScore/50*100
+					 CASE OF percentageScore
+						percentageScore>=90 : letterScore = A
+						percentageScore>=80 : letterScore = B
+						percentageScore>=70 : letterScore = C
+						percentageScore>=60 : letterScore = D
+						percentageScore<60  : letterScore = F
+					 Print "Error"
+					 Diaplay studentNum, name, testScore, and letterScore
+				 ELSE
+					Print "Error"
+				ENDDO
+				 
+				 
+				 
+	Test Data
+	  testScore: 40
+	  percentageScore: 40/50 *100 = 80
+	  letterScore: 80 = B
